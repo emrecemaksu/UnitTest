@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UTA_AssemblyCleanupMethodWasUnsuccesful" xml:space="preserve">
+    <value>Bütünleştirilmiş Kod Temizleme metodu ({0}.{1}) başarısız oldu. Hata İletisi: {2}. StackTrace: {3}</value>
+  </data>
+  <data name="CouldNotInspectTypeDuringDiscovery1" xml:space="preserve">
+    <value>MSTestAdapter, '{1}' bütünleştirilmiş kodunun '{0}' sınıfında testleri bulamadı. Nedeni: {2}.</value>
+  </data>
+  <data name="Common_CannotBeNullOrEmpty" xml:space="preserve">
+    <value>Parametre null veya boş olmamalıdır.</value>
+  </data>
+  <data name="DiscoveryWarning" xml:space="preserve">
+    <value>[MSTest][Discovery][{0}] {1}</value>
+  </data>
+  <data name="InvalidSettingsXmlElement" xml:space="preserve">
+    <value>Geçersiz '{0}' ayarları. Beklenmeyen XmlElement: '{1}'.</value>
+  </data>
+  <data name="TestContextMessageBanner" xml:space="preserve">
+    <value>TestContext İletileri:</value>
+  </data>
+  <data name="UTA_TestInitializeAndCleanupMethodHasWrongSignature" xml:space="preserve">
+    <value>{0}.{1} metodunun imzası yanlış. Metot statik olmayan, genel, değer döndürmeyen bir metot olmalı, hiçbir parametre almamalıdır. Bunlara ek olarak, metotta async-await kullanıyorsanız return-type değeri Task olmalıdır.</value>
+  </data>
+  <data name="UTA_ClassOrAssemblyInitializeMethodHasWrongSignature" xml:space="preserve">
+    <value>{0}.{1} metodunun imzası yanlış. Metot statik, genel, değer döndürmeyen bir metot olmalı ve TestContext türünde tek bir parametre almalıdır. Bunlara ek olarak, metotta async-await kullanıyorsanız return-type değeri Task olmalıdır.</value>
+  </data>
+  <data name="InvalidSettingsXmlAttribute" xml:space="preserve">
+    <value>Geçersiz '{0}' ayarları. Beklenmeyen XmlAttribute: '{1}'.</value>
+  </data>
+  <data name="UTA_ErrorMultiAssemblyInit" xml:space="preserve">
+    <value>UTA013: {0}: Bir bütünleştirilmiş kod içinde AssemblyInitialize özniteliği ile birden fazla metot tanımlanamaz.</value>
+  </data>
+  <data name="UTA_ErrorMultiClassInit" xml:space="preserve">
+    <value>UTA025: {0}: Bir sınıf içinde ClassInitialize özniteliği ile birden fazla metot tanımlanamaz.</value>
+  </data>
+  <data name="UTA_ExpectedExceptionAttributeConstructionException" xml:space="preserve">
+    <value>{0}.{1} test yöntemi üzerinde tanımlanan ExpectedException özniteliği, oluşturma sırasında bir özel durum oluşturdu.
+{2}</value>
+  </data>
+  <data name="UTA_ErrorPredefinedTestProperty" xml:space="preserve">
+    <value>UTA023: {0}: Önceden tanımlanmış {2} özelliği {1} metodunda tanımlanamaz.</value>
+  </data>
+  <data name="UTA_InitMethodThrows" xml:space="preserve">
+    <value>Başlatma metodu {0}.{1} özel durum oluşturdu. {2}.</value>
+  </data>
+  <data name="TestNotFound" xml:space="preserve">
+    <value>{0} test metodu bulunamadı.</value>
+  </data>
+  <data name="Execution_Test_Timeout" xml:space="preserve">
+    <value>'{0}' testi yürütme zaman aşımı süresini aştı.</value>
+  </data>
+  <data name="UTA_ErrorMultiInit" xml:space="preserve">
+    <value>UTA018: {0}: TestInitialize özniteliği ile birden fazla metot tanımlanamaz.</value>
+  </data>
+  <data name="TestAssembly_AssemblyDiscoveryFailure" xml:space="preserve">
+    <value>{0} bütünleştirilmiş kodundan testler bulunamadı. Neden:{1}</value>
+  </data>
+  <data name="UTA_ErrorNonPublicTestClass" xml:space="preserve">
+    <value>UTA001: TestClass özniteliği genel olmayan {0} sınıfında tanımlanmış</value>
+  </data>
+  <data name="UTA_ErrorIncorrectTestMethodSignature" xml:space="preserve">
+    <value>UTA007: {0} sınıfında tanımlanan {1} metodunun imzası doğru değil. [TestMethod] özniteliğiyle işaretlenen test metodu statik olmamalı, genel olmalı, return-type değeri void olmalı ve hiçbir parametre almamalıdır. Örnek: public void Test.Class1.Test(). Bunlara ek olarak, test metodunda async-await kullanıyorsanız return-type değeri Task olmalıdır. Örnek: public async Task Test.Class1.Test2()</value>
+  </data>
+  <data name="UTA_ErrorTestPropertyNullOrEmpty" xml:space="preserve">
+    <value>UTA021: {0}: {1} metodunda null veya boş özel özellik tanımlanmış. Özel özellik geçerli bir ada sahip olmalıdır.</value>
+  </data>
+  <data name="UTA_NoTestResult" xml:space="preserve">
+    <value>Test yürütülürken hata oluştu. Uzantı tarafından hiç sonuç döndürülmedi. TestMethodAttribute uzantısı kullanılıyorsa, lütfen satıcıya başvurun.</value>
+  </data>
+  <data name="UTA_ClassCleanupMethodWasUnsuccesful" xml:space="preserve">
+    <value>Sınıf Temizleme metodu ({0}.{1}) başarısız oldu. Hata İletisi: {2}. Yığın İzlemesi: {3}</value>
+  </data>
+  <data name="UTA_ErrorTestPropertyAlreadyDefined" xml:space="preserve">
+    <value>UTA022: {0}.{1}: "{2}" özel özelliği zaten tanımlanmış. Değer olarak "{3}" kullanılıyor.</value>
+  </data>
+  <data name="SourcesNotSupported" xml:space="preserve">
+    <value>Testlerin sağlanan kaynakların herhangi birinde çalıştırılması seçili platformda desteklenmiyor</value>
+  </data>
+  <data name="UTA_ClassInitMethodThrows" xml:space="preserve">
+    <value>Sınıf Başlatma metodu ({0}.{1}) özel durum oluşturdu. {2}: {3}.</value>
+  </data>
+  <data name="TestContextIsNull" xml:space="preserve">
+    <value>TestContext, Null olamaz.</value>
+  </data>
+  <data name="DataDrivenResultDisplayName" xml:space="preserve">
+    <value>{0} (Veri Satırı {1})</value>
+  </data>
+  <data name="UTA_WrongThread" xml:space="preserve">
+    <value>{0}. Teste UI nesneleri kullanıyorsanız, testi UI iş parçacığında yürütmek için [TestMethod] yerine [UITestMethod] özniteliğini kullanmayı deneyin.</value>
+  </data>
+  <data name="UTA_ExecuteThrewException" xml:space="preserve">
+    <value>Test yürütülürken özel durum oluşturuldu. TestMethodAttribute uzantısı kullanılıyorsa, lütfen satıcıya başvurun. Hata iletisi: {0}</value>
+  </data>
+  <data name="UTA_TestMethodThrows" xml:space="preserve">
+    <value>{0}.{1} test metodu özel durum oluşturdu: 
+{2}</value>
+  </data>
+  <data name="UTA_CleanupMethodThrows" xml:space="preserve">
+    <value>TestCleanup metodu ({0}.{1}) özel durum oluşturdu. {2}: {3}.</value>
+  </data>
+  <data name="UTA_InstanceCreationError" xml:space="preserve">
+    <value>{0} sınıfının örneği oluşturulamıyor. Hata: {1}.</value>
+  </data>
+  <data name="TestParallelizationBanner" xml:space="preserve">
+    <value>MSTest Yürütücü: {0} için Test Paralelleştirme etkin (Workers: {1}, Scope: {2}).</value>
+  </data>
+  <data name="UTA_TestContextTypeMismatchLoadError" xml:space="preserve">
+    <value>{0}.TestContext yanlış türe sahip.</value>
+  </data>
+  <data name="DebugTraceBanner" xml:space="preserve">
+    <value>Hata Ayıklama İzleyici:</value>
+  </data>
+  <data name="UTA_ClassOrAssemblyCleanupMethodHasWrongSignature" xml:space="preserve">
+    <value>{0}.{1} metodunun imzası yanlış. Metot statik, genel, değer döndürmeyen bir metot olmalı, hiçbir parametre almamalıdır. Bunlara ek olarak, metotta async-await kullanıyorsanız return-type değeri Task olmalıdır.</value>
+  </data>
+  <data name="UTA_ErrorGenericTestMethod" xml:space="preserve">
+    <value>UTA015: Genel metot bir test metodu olamaz. {0}.{1} geçersiz imzaya sahip</value>
+  </data>
+  <data name="UTA_AssemblyInitMethodThrows" xml:space="preserve">
+    <value>Bütünleştirilmiş Kod Başlatma metodu ({0}.{1}) özel durum oluşturdu. {2}: {3}. Test yürütmesi durduruluyor.</value>
+  </data>
+  <data name="UTA_ErrorMultiClean" xml:space="preserve">
+    <value>UTA024: {0}: TestCleanup özniteliği ile birden fazla metot tanımlanamaz.</value>
+  </data>
+  <data name="InvalidParallelScopeValue" xml:space="preserve">
+    <value>'Scope' için geçersiz '{0}' değeri belirtildi. Desteklenen kapsamlar {1}.</value>
+  </data>
+  <data name="UTF_FailedToGetExceptionMessage" xml:space="preserve">
+    <value>(Bir özel durum nedeniyle, {0} türündeki özel durum iletisi alınamadı.)</value>
+  </data>
+  <data name="AttachmentSetDisplayName" xml:space="preserve">
+    <value>MSTestAdapterV2</value>
+  </data>
+  <data name="CouldNotInspectTypeDuringDiscovery" xml:space="preserve">
+    <value>MSTestAdapter, '{1}' bütünleştirilmiş kodunun '{0}' sınıfındaki testleri bulamadı. Nedeni: {2}.</value>
+  </data>
+  <data name="UTA_TestContextSetError" xml:space="preserve">
+    <value>{0} sınıfı için TestContext özelliği ayarlanamıyor. Hata: {1}.</value>
+  </data>
+  <data name="UTA_ErrorMultiAssemblyClean" xml:space="preserve">
+    <value>UTA014: {0}: Bir bütünleştirilmiş kod içinde AssemblyCleanup özniteliği ile birden fazla metot tanımlanamaz.</value>
+  </data>
+  <data name="UTA_FailedToGetTestMethodException" xml:space="preserve">
+    <value>{0}.{1} metodu tarafından oluşturulan özel durum alınamadı.</value>
+  </data>
+  <data name="InvalidParallelWorkersValue" xml:space="preserve">
+    <value>'Workers' için geçersiz '{0}' değeri belirtildi. Değer negatif olmayan bir tamsayı olmalıdır.</value>
+  </data>
+  <data name="UTA_EndOfInnerExceptionTrace" xml:space="preserve">
+    <value>--- İç özel durum yığın izlemesinin sonu ---</value>
+  </data>
+  <data name="UTA_ErrorInvalidTimeout" xml:space="preserve">
+    <value>UTA054: {0}.{1} geçersiz Timeout özniteliğine sahip. Zaman aşımı geçerli bir tamsayı değer olmalıdır ve 0'dan küçük olamaz.</value>
+  </data>
+  <data name="LegacyScenariosNotSupportedWarning" xml:space="preserve">
+    <value>Uyarı: Testsettings dosyaları, ForcedLegacyMode ayarı true olarak belirlenmiş runsettings dosyaları veya vsmdi dosyaları, MSTest V2 Bağdaştırıcısı ile desteklenmez.</value>
+  </data>
+  <data name="Common_MustBeGreaterThanZero" xml:space="preserve">
+    <value>Parametre sıfırdan büyük olmalıdır.</value>
+  </data>
+  <data name="UTA_NoDefaultConstructor" xml:space="preserve">
+    <value>{0} sınıfı için varsayılan oluşturucu alınamıyor.</value>
+  </data>
+  <data name="UTA_TestContextLoadError" xml:space="preserve">
+    <value>{0}.TestContext özelliği bulunamıyor. Hata:{1}.</value>
+  </data>
+  <data name="EnumeratorLoadTypeErrorFormat" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="UTA_MultipleExpectedExceptionsOnTestMethod" xml:space="preserve">
+    <value>{0}.{1} test yöntemi, üzerinde tanımlanan ExpectedExceptionBaseAttribute öğesinden türetilmiş birden fazla öznitelik içeriyor. Bu türde yalnızca bir tane özniteliğe izin verilir.</value>
+  </data>
+  <data name="UTA_ErrorInValidTestContextSignature" xml:space="preserve">
+    <value>UTA031: {0} sınıfı geçerli bir TestContext özelliğine sahip değil. TestContext, TestContext türünde olmalı, statik olmamalı, genel olmalı ve salt okunur olmamalı. Örnek: public TestContext TestContext.</value>
+  </data>
+  <data name="UTA_CleanupMethodThrowsGeneralError" xml:space="preserve">
+    <value>{0} test sınıfı için Test Temizleme metodu çağrılırken hata oluştu: {1}</value>
+  </data>
+  <data name="UTA_MethodDoesNotExists" xml:space="preserve">
+    <value>{0}.{1} metodu yok.</value>
+  </data>
+  <data name="TestAssembly_FileDoesNotExist" xml:space="preserve">
+    <value>Dosya yok: {0}</value>
+  </data>
+  <data name="UTA_CleanupStackTrace" xml:space="preserve">
+    <value>TestCleanup Yığın İzleme</value>
+  </data>
+  <data name="UTA_TypeLoadError" xml:space="preserve">
+    <value>{0} türü alınamıyor. Hata: {1}.</value>
+  </data>
+  <data name="TypeLoadFailed" xml:space="preserve">
+    <value>'{0}' test kaynağından türler yüklenemedi. Bu kaynaktaki testlerin tümü veya bir bölümü bulunamıyor olabilir.</value>
+  </data>
+  <data name="UTA_ErrorMultiClassClean" xml:space="preserve">
+    <value>UTA026: {0}: Bir sınıf içinde ClassCleanup özniteliği ile birden fazla metot tanımlanamaz.</value>
+  </data>
+</root>

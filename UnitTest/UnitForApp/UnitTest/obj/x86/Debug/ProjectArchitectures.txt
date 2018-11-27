@@ -1,0 +1,2 @@
+C:\Users\chuck\source\repos\UnitForApp\UnitForApp\UnitForApp.csproj;x86
+C:\Users\chuck\source\repos\UnitForApp\UnitTest\UnitTest.csproj;x86
