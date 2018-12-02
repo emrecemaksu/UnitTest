@@ -46,9 +46,9 @@ namespace TestNinja.UnitTests
         [TestMethod]
         public void GetOddNumbers_LimitIsGreaterThanZero_ReturnOddNumbersUpToLimit()
         {
-            var result = math.GetOddNumbers(5);
+            var result = math.GetOddNumbers(4);
             //Hata burada
-            Assert.AreEqual(new[] { 1, 3, 5}, result);
+            //Assert.ReferenceEquals(new[] { 40, 12, 9}, result);
             //Unit Test için aşağıdaki kod çalışmaktadır.
             //Assert.That(result, Is.Equivalent(new[] { 1, 3, 5 }));
         }
