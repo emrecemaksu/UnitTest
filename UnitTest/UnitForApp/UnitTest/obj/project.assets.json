@@ -21043,12 +21043,11 @@
       ]
     },
     "Microsoft.NETCore.Portable.Compatibility/1.0.2": {
-      "sha512": "0Vp3mMgvphZOZcgL8wlYDygSrrcUyHgG0n65OSIT2tO7joh6tVw2gHd5TsFzOYaOCEH9Cpu9duM9BOzptbwPBg==",
+      "sha512": "sR4m1GQ8Tbg+Xdbf8Y8yC+LXKSUJUVe/B5vckCAU9Jd5MYf84gC1D0u2YeA72B4WjeWewCyHRB20ddA8hyLmqQ==",
       "type": "package",
       "path": "microsoft.netcore.portable.compatibility/1.0.2",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -21140,12 +21139,11 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.0.2": {
-      "sha512": "09mmq9aUVqFeYYnILO9/VUuvLVFMi2jxp7w2emedhHbHvjoQ+LbRO1m7gZ4AReZK+mytcWNCPSucCG3jcGQdPw==",
+      "sha512": "yk4GtuNbFz2sxA5NNIp2bnOwGZVlB4U+F4gWy5YnMEKmGzzJfQ4wg7zQUx334+WMQ5PiQEuS4UuOpsW+V0PzVg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.0.2",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -21155,7 +21153,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "Zgl3O2SREZHFSnjjXeVNIK6eulXV3ue7LsqQOSIKILxkxi1BO76hFUIf4yGmK0X5zK1Lf2rTelwaW2eHrVo0Cw==",
+      "sha512": "TvQ/K2qQNCFnGDue5VCjpj6kcn1LATdxMJEHxPZogiF4bR7b6PNuLo7ztsz9t0dbIwS+4ovzpqiKMDp4n/wlaQ==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -22527,7 +22525,7 @@
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "vqkh2f06O/1JO6pVAi8i8yldazmBLgk6xHutY1zQLQSMLkSu/ZZcuLKujSwmQ+z50Zs4PYUAVI3X5WNujRcXWw==",
+      "sha512": "TzojnSZmIxvIs/pFywsT5xXFZDf86T5e2NwV4gnZlHKErwRLhbhX9tPcGHsLi5J/xinMSerP8m7MyZlVuqB/Hw==",
       "type": "package",
       "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -22721,7 +22719,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "TsKfBDSIdiLiECxKW5d/5Bf+CPa7cCOVtlVK6EG3PLLHuP4OqSGD960OJ2aTNxt5YG4T1YJjsHmfyaNIxy8WHw==",
+      "sha512": "teWoYKARDlFsPNxibL5TULeqtQxZSHH8vfFFXCa3fxqZmh7bzCqsYe++Q9RYdx48pLht6z01zENHj65VgJK4aQ==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -22901,7 +22899,7 @@
       ]
     },
     "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "KqQT6IjRSojLxBCtq/cQxbJmjPBG4niQqqMP+u6TkJi+gQ1bLHVtqM913Ze3JnDTNUaRTvYvcpaOYo4N8+uyUg==",
+      "sha512": "lqrwOhcW2lISM9deTMccjByI5SpHiXLcK+8d67tBFZU99ro51YGV1fxip2Syz/Ihjt8RZ6e3OFMpMFjmdSYhcg==",
       "type": "package",
       "path": "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -23082,7 +23080,7 @@
       ]
     },
     "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "P+IQQ3zqdTKP7MrIWvIKyUW8E4GxyMwuRsvfajx9T4r4t1fXULRmX8bBNkDOfJjk07ZWgYAc4Dwa/g9uNGveww==",
+      "sha512": "NjsSVoeYs3AmlrQpMrZ8EGQMtiGxBcbsHClcLRDDj6k149oyxQU5w/Se7MBvHK3/oqSl3b1WTBcBQ3tYONJfRw==",
       "type": "package",
       "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -23276,7 +23274,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "ttToG5f1HUQ+j1njpzLi/ohbiEEN7pKLtKB7mRTIAA6gFJXyt8CMFBtTptqP8o/DZYLfNpBxk5D3N8EkG3IH8w==",
+      "sha512": "e5xcTLaCe4ir63V4wBARpnm/+XDKsVxM3FaQY4Lu7pxtapjmddMfuF0kA52UqDQm2F9NILMoY3P5scrn282T6w==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -23456,7 +23454,7 @@
       ]
     },
     "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "5Z+UleZAH7Bwr9+unJ96FtfEURqC8tA+X7FWoEyVvgYE57SJcEAdtkUk6HEJqz3rb9wJzajmyryRovd6rwkPVg==",
+      "sha512": "KEnXGKwIAHPiBL8IVS5QsJM4MA4mmYyPxtkE+ImxvjCBrtt4XSG2rBUUoI2jlZala4KURAzECFHBGpTBAPGYNA==",
       "type": "package",
       "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -23650,7 +23648,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.2": {
-      "sha512": "vlEiksja6u/8QqAMSTGP6TL+xNSomjiKuSoccrzEGH2X+ZufLq0OKnYTMSUniCg6BEUZiLV2fFnPr2m+2K1o6Q==",
+      "sha512": "9ILO9QReOm0DiiMXgegZPy0IlsiY96malbGQtOGN/RhDsw1pH56vII6ukwiJQGweXULYlmbDf5pNYPHXworJMA==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.2.2",
       "files": [
@@ -26468,7 +26466,7 @@
       ]
     },
     "System.Private.ServiceModel/4.1.3": {
-      "sha512": "PS9pmdXqvLxxt02jF7Lrbq0kBi+IQGhVOP38V6Wv5IlUW2vFVBbtPb2euhl7bJsh80paIeUEjjA3QtvgMVE7Vw==",
+      "sha512": "nXoKlG2znsZ5lcR/ULZ7hIFrEqRBW8m5PK1qHf5T/eeogmuL50WpuHxhpNM/arTYS5FtlSN8Sl7YXZIGPcf/zQ==",
       "type": "package",
       "path": "system.private.servicemodel/4.1.3",
       "files": [
@@ -28005,7 +28003,7 @@
       ]
     },
     "System.ServiceModel.Duplex/4.0.4": {
-      "sha512": "UV1BhrNh6qyW0Xw1xM0L5bnPYFFkFt18Nqq2BqrYtso5tj359QLtj/xoxZ52HWuqOL8p4mNuVNNseNZNmv0lkA==",
+      "sha512": "yBFdrm04/c3ApEM8TmHnN+d5nEXBX7ZDQ5kgL06TuXHWR6M8OogaUVFqfb9hkBH/PrA1aFLgaTTj4PqhvRSTBQ==",
       "type": "package",
       "path": "system.servicemodel.duplex/4.0.4",
       "files": [
@@ -28069,7 +28067,7 @@
       ]
     },
     "System.ServiceModel.NetTcp/4.1.3": {
-      "sha512": "N1uAndW4YVkvz/OqmKInE3eS9nuPzFtnJo/A/g2/9lmpo95l5TwM+Ho0GfVI7yPLeA9nmqe7wrxrg3i28aYS4Q==",
+      "sha512": "qiAn9GyWS5zFNWBjgnFMThN1iO2ryyJCTAZgYehTQyLvBr3E3XHlW9rM1bTTbbxU0neTKuJPLjEn7QVQ96H9gA==",
       "type": "package",
       "path": "system.servicemodel.nettcp/4.1.3",
       "files": [
@@ -28095,7 +28093,7 @@
       ]
     },
     "System.ServiceModel.Primitives/4.1.3": {
-      "sha512": "men/PNljQKaKqDep+Yc7pePMOOQcoIu2P+/+N3qmCy7MOc2urHfAEcJctlTA8gxeYUCwsuhfdBRTEOiTzqIMZQ==",
+      "sha512": "ooQ7+rc+4NOU3fzVDBpH9DGubH2U09rSpKOK5LoI/RQg00zWCtGuPN1Ve09LxkjTkD+nEssoHxVaWDW8lWmevQ==",
       "type": "package",
       "path": "system.servicemodel.primitives/4.1.3",
       "files": [
@@ -28136,7 +28134,7 @@
       ]
     },
     "System.ServiceModel.Security/4.0.4": {
-      "sha512": "OIBNnOzwaYZfqxc9my7xg0WkO2sPySt5IdbHVqA+rIxuo+ow6DCC1tv9zPccAPpUChf0Ny3aCakeYRu61wi0ow==",
+      "sha512": "TYSUCu8ejtp+8CLznJR57GS/LTR+wIGV6RlehUYwZImOhqnMvCRH35G0SXqbGrUd7wThlD+DowRHU3LivG89Mg==",
       "type": "package",
       "path": "system.servicemodel.security/4.0.4",
       "files": [
@@ -28991,11 +28989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chuck\\source\\repos\\UnitForApp\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\chuck\\Documents\\GitHub\\UnitTest\\UnitTest\\UnitForApp\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\chuck\\source\\repos\\UnitForApp\\UnitTest\\UnitTest.csproj",
+      "projectPath": "C:\\Users\\chuck\\Documents\\GitHub\\UnitTest\\UnitTest\\UnitForApp\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\chuck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chuck\\source\\repos\\UnitForApp\\UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\chuck\\Documents\\GitHub\\UnitTest\\UnitTest\\UnitForApp\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -29015,8 +29013,8 @@
       "frameworks": {
         "uap10.0.15063": {
           "projectReferences": {
-            "C:\\Users\\chuck\\source\\repos\\UnitForApp\\UnitForApp\\UnitForApp.csproj": {
-              "projectPath": "C:\\Users\\chuck\\source\\repos\\UnitForApp\\UnitForApp\\UnitForApp.csproj"
+            "C:\\Users\\chuck\\Documents\\GitHub\\UnitTest\\UnitTest\\UnitForApp\\UnitForApp\\UnitForApp.csproj": {
+              "projectPath": "C:\\Users\\chuck\\Documents\\GitHub\\UnitTest\\UnitTest\\UnitForApp\\UnitForApp\\UnitForApp.csproj"
             }
           }
         }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,13 +45,20 @@ namespace TestNinja.UnitTests
             Assert.AreEqual(2, result);
         }
         [TestMethod]
+        public void GetOddNumbers_LimitIsGreaterThanZero_Not_Null()
+        {
+            var result = math.GetOddNumbers(4);
+            //Hata burada
+            Assert.IsNotNull(result);
+        }
+        [TestMethod]
         public void GetOddNumbers_LimitIsGreaterThanZero_ReturnOddNumbersUpToLimit()
         {
             var result = math.GetOddNumbers(4);
             //Hata burada
-            //Assert.ReferenceEquals(new[] { 40, 12, 9}, result);
-            //Unit Test için aşağıdaki kod çalışmaktadır.
-            //Assert.That(result, Is.Equivalent(new[] { 1, 3, 5 }));
+            int[] sayilarim = new int[2] { 1, 3};
+            int[] sonuc = result.ToArray();
+            CollectionAssert.AreEqual(sayilarim, sonuc);
         }
     }
 }
