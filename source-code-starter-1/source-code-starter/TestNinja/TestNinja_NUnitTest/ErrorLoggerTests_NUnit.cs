@@ -23,12 +23,16 @@ namespace TestNinja_NUnitTest
         {
             var logger = new ErrorLogger();
             var id = Guid.Empty;
-            //Anlamadım... id = 000000 olarak geçerken. 28 satırdan sonra nasıl geriye dönük farklı değer aldı.
-            //id olay gerçekleşse bile local bir değişken değil mi?
-            //Delegate Event Olayı
             logger.ErrorLogged += (sender, args) => { id = args; };
             logger.Log("b");
             Assert.That(id, Is.Not.EqualTo(Guid.Empty));
+        }
+        [Test]
+        public void OnErrorLogged_WhenCalled_RaiseEvent()
+        {
+            var logger = new ErrorLogger();
+            //logger.OnErrorLogged(Guid.NewGuid);
+            Assert.That(true);
         }
     }
 }

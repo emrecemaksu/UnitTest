@@ -26,10 +26,6 @@ namespace TestNinja.UnitTests
         public void Log_InvalidError_ThrowArgumentNullException(string error)
         {
             var logger = new ErrorLogger();
-            //Lambda expression kullanılmadığında "void ögesinden System.action ögesine dönüştürülemiyor." hatası alınıyor.
-            //Lambda expressionın Parametre kısmını () boş bırakıyoruz.
-            //Boş bıraktığımız zaman Assert.ThrowsException ın istediği parametreyi kendisinin belirlemesini mi sağlıyoruz.
-            //Eğer boş kalmasaydı () içine ne gelebilirdi.
             Assert.ThrowsException<ArgumentNullException>(() => logger.Log(error));
         }
     }
