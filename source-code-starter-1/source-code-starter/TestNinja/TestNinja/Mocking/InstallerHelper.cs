@@ -5,13 +5,19 @@ namespace TestNinja.Mocking
     public class InstallerHelper
     {
         private string _setupDestinationFile;
+        private readonly IHelper _helper;
+
+        public InstallerHelper(IHelper helper)
+        {
+            _helper = helper;
+        }
 
         public bool DownloadInstaller(string customerName, string installerName)
         {
-            var client = new WebClient();
+            
             try
             {
-                client.DownloadFile(
+                _helper.DownloadFile(
                     string.Format("http://example.com/{0}/{1}",
                         customerName,
                         installerName),
