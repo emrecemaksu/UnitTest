@@ -24,7 +24,7 @@ namespace TestNinja.UnitTests.Mocking
             var _helper1 = new Mock<IHelper>();
             var _insHelper1 = new InstallerHelper(_helper1.Object);
             //_helper1.Setup(tr1 => tr1.DownloadFile(It.IsAny<string>(), It.IsAny<string>())).Throws<WebException>();
-            //resul,false => Testi Geçiyor.
+            //result,false => Testi Geçiyor.
             var result = _insHelper1.DownloadInstaller("customer", "installer");
             Assert.AreEqual(result, true);
             //Bu şekilde de test geçiyor.
