@@ -8,14 +8,14 @@ namespace TestNinja.Mocking
 {
     public interface IBookHelp
     {
-        IQueryable<T> Query<T>();
+        IQueryable<Booking> Query<T>();
     }
 
     class BookHelp : IBookHelp
     {
-        public IQueryable<T> Query<T>()
+        public IQueryable<Booking> Query<T>()
         {
-            return new List<T>().AsQueryable();
+            return new List<Booking>().AsQueryable();
         }
     }
 }

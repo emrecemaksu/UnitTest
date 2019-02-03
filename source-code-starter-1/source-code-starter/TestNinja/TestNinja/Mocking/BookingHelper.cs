@@ -12,10 +12,10 @@ namespace TestNinja.Mocking
             if (booking.Status == "Cancelled")
                 return string.Empty;
 
-            var bookings = bookHelp.Query<Booking>().Where(b => b.Id != booking.Id && b.Status != "Cancelled");
+            booking = bookHelp.Query<Booking>().Where(b => b.Id != booking.Id && b.Status != "Cancelled").AsQueryable<Booking>();
 
             var overlappingBooking =
-                bookings.FirstOrDefault(
+                booking.FirstOrDefault(
                     b =>
                         booking.ArrivalDate < b.DepartureDate
                         && b.ArrivalDate < booking.DepartureDate);
